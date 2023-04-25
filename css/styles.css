@@ -182,6 +182,8 @@ body {
   padding: 16px 32px;
   margin-left: auto;
   margin-right: auto;
+  min-width: 169px;
+  height: 56px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -190,7 +192,7 @@ body {
   color: var(--main-bg-clr);
   background: var(--active-btn-clr);
   cursor: pointer;
-
+  border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -202,7 +204,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 48px;
-  width: 496px;
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -258,17 +260,27 @@ body {
 .team-section-cntnr {
   display: flex;
 }
+.team-card-position {
+  border-radius: 0px 0px 4px 4px;
+}
 .team-card-position:not(:last-child) {
   margin-right: 24px;
 }
+
 .card-content {
-  margin: 32px 16px;
+  padding: 32px 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px;
   gap: 8px;
+}
+.team-title-position {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.text-team-position {
+  text-align: center;
 }
 
 /* ====PORTFOLIO==== */
@@ -295,6 +307,7 @@ body {
 }
 .filter-button:hover,
 .filter-button:focus {
+  border: 1px solid transparent;
   color: var(--main-bg-clr);
   background: var(--accent-color);
 }
@@ -322,15 +335,18 @@ body {
 .portfolio-card-content {
   display: flex;
   flex-direction: column;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
-  gap: 8px;
+  padding: 32px 16px;
   border: 1px solid var(--border-header-clr);
   border-top: none;
 }
+.card-title-pstn {
+  margin-bottom: 8px;
+}
+.advantages-list {
+}
 
 /* FOOTER */
+
 .footer-comments {
   width: 264px;
   font-weight: 400;
@@ -346,11 +362,11 @@ body {
   color: var(--light-txt-clr);
 }
 .footer-cntnr {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
   display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 .footer-logo-position {
+  display: inline-block;
+  margin-bottom: 16px;
 }
