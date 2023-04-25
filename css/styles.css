@@ -146,6 +146,8 @@ body {
   color: var(--accent-color);
 }
 .page-nav {
+  display: flex;
+
   margin-right: auto;
 }
 /* Contacts panel */
