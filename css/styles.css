@@ -147,7 +147,7 @@ body {
 }
 .page-nav {
   display: flex;
-
+  align-items: center;
   margin-right: auto;
 }
 /* Contacts panel */
