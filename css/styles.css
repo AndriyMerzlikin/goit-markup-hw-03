@@ -365,8 +365,6 @@ body {
 }
 .footer-cntnr {
   padding: 100px 0;
-  display: flex;
-  flex-direction: column;
 }
 .footer-logo-position {
   display: inline-block;
