@@ -358,13 +358,13 @@ body {
   color: var(--light-txt-clr);
 }
 .footer {
+  padding: 100px 0;
   background: var(--secondary-bg-clr);
 }
 .second-footer-logo {
   color: var(--light-txt-clr);
 }
 .footer-cntnr {
-  padding: 100px 0;
 }
 .footer-logo-position {
   display: inline-block;
